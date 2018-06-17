@@ -1,0 +1,7 @@
+redux是一个状态机
+1. store是大仓库，保存所有数据的地方
+2. state 是状态
+3. state 和 view 一一对应， 不同时刻state导致的view不同， 改变state就可以实现时间旅行
+4. 改变state的唯一方法是action , 只能通过view来改变 state
+5. dispatch 是view  唯一能发出action的方法(接受一个action作为参数)
+5. 改变state的方法的过程叫做 reducer(接受一个 dispatch, 当前state 作为参数)
